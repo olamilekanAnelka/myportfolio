@@ -53,7 +53,19 @@
      @media screen and (max-width: 600PX){
         .experience_container > div {
             width: 90%;
+            
         }
+
+        .experience_details {
+            justify-content: center;
+            text-align: center;
+          }
+        
+          .experience_details > div {
+            text-align: center;
+          }
+       
+        
      }
 
 
