@@ -16,27 +16,27 @@ const Services = () => {
             <ul className="service_list">
               <li>
                 <BsFillCheckCircleFill className='service_list_icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>                
+                <p> Create websites that adapt gracefully to all devices</p>                
               </li>
 
               <li>
                 <BsFillCheckCircleFill className='service_list_icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>                
+                <p> Design interfaces prioritizing user ease and engagement</p>                
               </li>
 
               <li>
                 <BsFillCheckCircleFill className='service_list_icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>                
+                <p> Craft modern, structured, and stylish web content</p>                
               </li>
 
               <li>
                 <BsFillCheckCircleFill className='service_list_icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>                
+                <p> Ensure consistent functionality across various web browsers</p>                
               </li>
 
               <li>
                 <BsFillCheckCircleFill className='service_list_icon'/>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>                
+                <p>Speed up sites for seamless browsing and user satisfaction.</p>                
               </li>
             </ul>
 

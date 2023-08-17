@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from '../../asset/webstudio2.jpg'
+import ME from '../../asset/3.jpg'
 import {BsAward} from 'react-icons/bs'
 import {FiUsers} from 'react-icons/fi'
 import {AiFillFolder} from 'react-icons/ai'
@@ -42,11 +42,11 @@ const About = () => {
            
           </div>
           <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-              Error non minus, culpa aliquam optio doloremque ducimus
-               iste sed quidem placeat molestias soluta
-               odio beatae repudiandae doloribus nisi, id 
-               officiis! Reiciendis!
+          Hello, I'm Ogunkanmbi Olamilekan, a budding front-end developer 
+          with a passion for creating visually appealing and 
+          user-friendly websites. I believe in the power of 
+          design and technology to make a positive impact on
+           the digital world.
             </p>
             <a href="#contact" className='btn btn-primary'>Let's Chat</a>
 
