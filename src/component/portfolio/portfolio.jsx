@@ -1,6 +1,6 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../asset/original-4f91fd1e5b5f597194cf0bf4c6746324.jpg'
+import IMG1 from '../../asset/gerichtwebpageimg.png'
 import IMG2 from '../../asset/original-639ae7baeac33cc207e42324af05f63f.png'
 import IMG3 from '../../asset/original-7c4aa0bc1cc733e4d3aaccaf43fd9206.png'
 import IMG4 from '../../asset/original-cc855605d8a0338df48357d153d43322.png'
@@ -18,15 +18,15 @@ const Portfolio = () => {
           <div className="portfolio_item-img">
             <img src={IMG1} alt="" />
           </div>
-          <h3>This is a portfolo item title</h3>
+          <h3>Gericht Reattaurant Webpage</h3>
             <div className="portfolio_item-cta">
-            <a href="https://github.com" 
+            <a href="https://github.com/olamilekanAnelka/restaurantwebage.git" 
             className='btn'
             target='_blank'>
               Github
             </a>
            
-            <a href="https://dribbble.com/shots" 
+            <a href="https://mygerichtrestaurant.netlify.app" 
             className='btn btn-primary'
             target='_blank'>
               live demo
