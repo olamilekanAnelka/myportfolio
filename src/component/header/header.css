@@ -39,11 +39,6 @@ header{
 
 /*  ME */
 .me{
-   /* background: linear-gradient(to right, 
-    var(--color-primary), );
-    width: 22rem;
-    height: 80vh;
-      border-radius: 12rem 12rem 0 0;*/
     position: absolute;
     left: calc(50% - 11rem);
     margin-top: 4rem;
@@ -54,6 +49,7 @@ header{
 
 .my__img{
     border-radius: 20px;
+    height: auto;
     width: 100%;
 }
 /* scrool down */
@@ -71,7 +67,11 @@ header{
 /* MEDIA QUARIES (MEDUIM DEVICES ) */
 @media screen and (max-width: 1024px){
    header{
-    height: 68vh;
+    height: 100vh;
+   }
+
+   .my__img{
+    height: auto;
    }
 
 }
