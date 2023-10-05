@@ -80,7 +80,11 @@ header{
 /* MEDIA QUARIES (SMALL DEVICES ) */
 @media screen and (max-width: 600PX){
     header{
-        height: 100vh;
+        height: 150vh;
+    }
+
+    .my__img{
+        height: 150vh;
     }
     .header_social, 
     .scroll_down{
