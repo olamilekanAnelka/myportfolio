@@ -39,5 +39,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "rollup-plugin-terser": "^7.0.2",
+    "sourcemap-codec": "^1.4.8",
+    "w3c-hr-time": "^1.0.2"
   }
 }
