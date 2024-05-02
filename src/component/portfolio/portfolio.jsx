@@ -1,7 +1,7 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../asset/gerichtwebpageimg.png'
-import IMG2 from '../../asset/original-639ae7baeac33cc207e42324af05f63f.png'
+import IMG1 from '../../asset/brainwave.png'
+import IMG2 from '../../asset/gerichtwebpageimg.png'
 import IMG3 from '../../asset/original-7c4aa0bc1cc733e4d3aaccaf43fd9206.png'
 import IMG4 from '../../asset/original-cc855605d8a0338df48357d153d43322.png'
 import IMG5 from '../../asset/original-d9f9e842e1a68a456e9c8e881c5f9e6c.jpg'
@@ -20,6 +20,26 @@ const Portfolio = () => {
           </div>
           <h3>Gericht Reattaurant Webpage</h3>
             <div className="portfolio_item-cta">
+            <a href="https://github.com/olamilekanAnelka/brainwave" 
+            className='btn'
+            target='_blank'>
+              Github
+            </a>
+           
+            <a href="https://brainwaveaii.netlify.app/" 
+            className='btn btn-primary'
+            target='_blank'>
+              live demo
+            </a>
+            </div>
+        </article>
+
+       <article className='portfolio_item'>
+          <div className="portfolio_item-img">
+            <img src={IMG2} alt="" />
+          </div>
+          <h3>Gericht Reattaurant Webpage</h3>
+            <div className="portfolio_item-cta">
             <a href="https://github.com/olamilekanAnelka/restaurantwebage.git" 
             className='btn'
             target='_blank'>
@@ -33,25 +53,7 @@ const Portfolio = () => {
             </a>
             </div>
         </article>
-        <article className='portfolio_item'>
-          <div className="portfolio_item-img">
-            <img src={IMG2} alt="" />
-          </div>
-          <h3>This is a portfolo item title</h3>
-          <div className="portfolio_item-cta">
-            <a href="https://github.com" 
-            className='btn'
-            target='_blank'>
-              Github
-            </a>
-           
-            <a href="https://dribbble.com/shots" 
-            className='btn btn-primary'
-            target='_blank'>
-              live demo
-            </a>
-            </div>
-        </article>
+
         <article className='portfolio_item'>
           <div className="portfolio_item-img">
             <img src={IMG3} alt="" />
